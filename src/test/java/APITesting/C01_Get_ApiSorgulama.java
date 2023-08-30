@@ -32,5 +32,11 @@ ve response suresinin 5 sn'den kisa oldugunu manuel olarak test ediniz.
         //4. Assertion islemi yapilacak
         response.prettyPrint();
 
+        System.out.println("Status cod  "+response.getStatusCode());
+        System.out.println("Content Typ  "+response.getContentType());
+        System.out.println("Header: "+ response.getHeader("Server"));
+        System.out.println("Status Line: "+response.getStatusLine());
+        System.out.println(" Response Time: "+ response.getTime());
+
     }
 }
