@@ -57,7 +57,10 @@ public class C11_JSONArrayKullanimi {
     kisiBilgisi.put("firstName", "John");
     kisiBilgisi.put("lastName", "doe");
     kisiBilgisi.put("age", 26);
+    kisiBilgisi.put("adres",adres);
+    kisiBilgisi.put("phonenumber",phonenumber);
     System.out.println(kisiBilgisi);
+
 
 
 
