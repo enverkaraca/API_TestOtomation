@@ -7,7 +7,7 @@ import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class C10 {
+public class C10_Post_JsonPath {
 
     /*https://restful-booker.herokuapp.com/booking url’ine asagidaki body’ye sahip bir POST
 request gonderdigimizde
@@ -48,7 +48,7 @@ ve “checkin” tarihinin 2021-06-01 ve “checkout” tarihinin 2021-06-10 ve 
                 .when()
                 .body(reqBody2.toString()).post(url);
 
-
+//4-
 
 
     }
